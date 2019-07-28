@@ -19,15 +19,15 @@ define([
         },
 
         goToDemo1: function () {
-            window.location.href = "https://sebcoles.github.io/esri_samples/examples/1/";
+            window.location.href = "/examples/1/";
         },
 
         goToDemo2: function () {
-            window.location.href = "https://sebcoles.github.io/esri_samples/examples/2/";
+            window.location.href = "/examples/2/";
         },
 
         goToDemo3: function () {
-            window.location.href = "https://sebcoles.github.io/esri_samples/examples/3/";
+            window.location.href = "/examples/3/";
         }
     })
 });

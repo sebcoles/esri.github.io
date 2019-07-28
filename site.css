@@ -6,3 +6,12 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.myButton {
+    height:150px;
+    width: 150px;
+}
+
+.myButton span{
+    font-size:30px !important;
+}
