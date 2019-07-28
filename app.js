@@ -10,9 +10,9 @@ define([
         constructor: function () {
             map = EsriService.createMap();
             view = EsriService.createMapView();
-            EsriService.addToUi("line-button", "top-left");
-            EsriService.addToUi("save-button", "top-left");
-            EsriService.addToUi("search-button", "top-left");
+            EsriService.addToUi("demo1-button", "top-left");
+            EsriService.addToUi("demo2-button", "top-left");
+            EsriService.addToUi("demo3-button", "top-left");
             document.getElementById("demo1-button").onclick = this.goToDemo1;
             document.getElementById("demo2-button").onclick = this.goToDemo2;
             document.getElementById("demo3-button").onclick = this.goToDemo3;
