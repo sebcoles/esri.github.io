@@ -1,3 +1,60 @@
 <html>
-    aomething
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Demo 3 - Queries</title>
+   <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/css/main.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <script>
+  let path;
+if(location.pathname.indexOf("index.html") > -1)
+  path = `${location.pathname.replace(/\/[^/]+$/, "")}/`
+else
+  path = `${location.pathname.replace(/\/[^/]+$/, "")}`
+
+dojoConfig = {
+  isDebug: false,
+  parseOnLoad: true,
+  paths: {
+    app: `${path}app`,
+    lib: `${path}lib`,
+    shared: `${path}shared`,
+  }
+};
+</script>
+
+    <script src="https://js.arcgis.com/4.12/"></script>
+
+  <script>
+    require([
+      "app"
+    ], function (App) {
+        new App();
+    });
+  </script>
+</head>
+
+<body>
+  <div id="viewDiv">
+    <div
+        id="demo1-button"
+        class="esri-widget esri-widget--button esri-interactive"
+        title="Demo 1">
+        <span class="esri-icon-layers"></span>
+  </div>
+  <div
+  id="demo2-button"
+  class="esri-widget esri-widget--button esri-interactive"
+  title="Demo 2">
+  <span class="esri-icon-polyline"></span>
+  <div
+  id="demo3-button"
+  class="esri-widget esri-widget--button esri-interactive"
+  title="Demo 3">
+  <span class="esri-icon-search"></span>
+</div>
+</body>
+
 </html>
