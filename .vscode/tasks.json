@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open in Chrome",
+            "command": "Chrome",
+            "windows": {
+                "command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+            },
+            "args": [
+                "--disable-web-security",
+                "--user-data-dir=''",
+                "http://localhost:8003/${relativeFile}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

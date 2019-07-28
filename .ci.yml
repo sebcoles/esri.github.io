@@ -1,0 +1,23 @@
+# Request Build Agent
+resources:
+- repo: self
+queue:
+  name: Hosted Ubuntu 1604
+  demands: npm
+
+# Instal NPM and node packages
+steps:
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    verbose: false
+
+# Run the karma test runner
+- task: Npm@1
+  displayName: 'npm test'
+  inputs:
+    command: custom
+    verbose: false
+    customCommand: 'run test-single-run'
+
+

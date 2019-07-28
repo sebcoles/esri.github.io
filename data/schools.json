@@ -1,0 +1,21 @@
+[{
+    "Name":"North Town Primary School",
+    "Ofsted": "Outstanding",
+    "Latitude": 51.019006,
+    "Longitude": -3.107974
+},{
+    "Name":"Priorswood Primary School",
+    "Ofsted": "Good",
+    "Latitude": 51.027805,
+    "Longitude": -3.099797
+},{
+    "Name":"Parkfield Primary School",
+    "Ofsted": "Good",
+    "Latitude": 51.011452,
+    "Longitude": -3.114559
+},{
+    "Name":"Minerva Primary School",
+    "Ofsted": "Requires improvement",
+    "Latitude": 51.019305,
+    "Longitude": -3.077653
+}]

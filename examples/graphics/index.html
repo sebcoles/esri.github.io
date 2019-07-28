@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Demo 2 - Creating a Graphic</title>
+   <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/css/main.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <script src="../../shared/dojo-bootstrap.js"></script>
+<script src="https://js.arcgis.com/4.12/"></script>
+
+  <script>
+    require([
+      "app/app"
+    ], function (App) {
+        new App();
+    });
+  </script>
+</head>
+
+<body>
+  <div id="viewDiv">
+    <div
+        id="line-button"
+        class="esri-widget esri-widget--button esri-interactive"
+        title="Draw polyline">
+        <span class="esri-icon-polyline"></span>
+  </div>
+  <div
+  id="save-button"
+  class="esri-widget esri-widget--button esri-interactive"
+  title="Save">
+  <span class="esri-icon-save"></span>
+</div>
+</body>
+
+</html>

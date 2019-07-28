@@ -1,0 +1,61 @@
+[{
+    "NoBedrooms":2,
+    "PropertyType": "Flat",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+},{
+    "NoBedrooms":1,
+    "PropertyType": "Flat",
+    "Price": 120000,
+    "Latitude": 51.019987,
+    "Longitude": -3.113937
+},{
+    "NoBedrooms":4,
+    "PropertyType": "Detached",
+    "Price": 120000,
+    "Latitude": 51.013255, 
+    "Longitude": -3.118529
+},{
+    "NoBedrooms":5,
+    "PropertyType": "Detached",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+},{
+    "NoBedrooms":3,
+    "PropertyType": "Semi Detached",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+},{
+    "NoBedrooms":3,
+    "PropertyType": "Semi Detached",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+},{
+    "NoBedrooms":2,
+    "PropertyType": "Terraced",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+},{
+    "NoBedrooms":2,
+    "PropertyType": "Terraced",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+},{
+    "NoBedrooms":2,
+    "PropertyType": "Terraced",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+},{
+    "NoBedrooms":3,
+    "PropertyType": "Terraced",
+    "Price": 120000,
+    "Latitude": 51.019740,
+    "Longitude": -3.106449
+}]
